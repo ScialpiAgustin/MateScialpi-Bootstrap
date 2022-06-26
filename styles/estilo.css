@@ -5,8 +5,20 @@
 	font-size: 25px;   
 }
 
+.cuerpo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #898994c5;
+    color: #000000;
+    
+}
 .bg-blue {
     background-color: #05121d;
+    color: #F7F7F7;
+}
+.navbar-toggler-icon{
     color: #F7F7F7;
 }
 
@@ -27,10 +39,28 @@
 }
 
 .preparacion{
-    width: 800px;
-    height: 800px;
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    object-fit: scale-down;
+
+
+}
+.container_foto{
+    height: auto;
+    width: 100%;
+
+}
+.table{
+    color: #F7F7F7;
+}
+.cipo_foto{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: start;
     object-fit: scale-down;
 
 }
@@ -49,20 +79,53 @@
     height: 100px;
     
 }
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
 .footer_list{
     display: flex;
     align-content: center;
     justify-content: center;
 
 }
-.footer__li{
+.footer__li {
     color: #F7F7F7;
 	padding: 25px;
     text-decoration: none;
 	list-style-type: none;
     box-sizing: border-box;
 }
+.footer__li a{
+    color: #F7F7F7;
+}
 .footer__li a:hover{
     color: #46f800;
+
+}
+@media screen and (max-width:768px){
+
+ .cipo_foto{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    object-fit: scale-down;
+
+}  
+
+.table{
+    font-size: 15px;
+    
+}
 
 }
