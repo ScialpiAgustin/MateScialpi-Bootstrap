@@ -6,20 +6,19 @@
 }
 
 .cuerpo{
+    background-color: #FCFFE7;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #898994c5;
     color: #000000;
     
+    
 }
+
 .bg-blue {
-    background-color: #05121d;
-    color: #F7F7F7;
-}
-.navbar-toggler-icon{
-    color: #F7F7F7;
+    background-color:  #D7A86E;
+    color: #000000;
 }
 
 .navbar-brand{ 
@@ -31,10 +30,10 @@
 
 }
 .nav-item a{
-    color: #F7F7F7;
+    color: #000000;
 }
 .nav-item a:hover{
-    color: #46f800;
+    color: #ffffff;
 
 }
 
@@ -70,9 +69,9 @@
 }
 .footer{
     grid-area: footer;
-    background: #05121d;
+    background: #D7A86E;
     font-size: 25px;
-    color: #F7F7F7;
+    color: #000000;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -99,17 +98,17 @@ h2{
 
 }
 .footer__li {
-    color: #F7F7F7;
+    color: #000000;
 	padding: 25px;
     text-decoration: none;
 	list-style-type: none;
     box-sizing: border-box;
 }
 .footer__li a{
-    color: #F7F7F7;
+    color: #000000;
 }
 .footer__li a:hover{
-    color: #46f800;
+    color: #ffffff;
 
 }
 @media screen and (max-width:768px){
