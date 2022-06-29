@@ -1,18 +1,6 @@
-* {
-	padding: 0;
-	margin: 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 25px;   
-}
 
-.cuerpo{
-    background-color: #FCFFE7;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #000000;
-}
+
+
 
 .bg-blue {
     background-color:  #D7A86E;
@@ -27,13 +15,12 @@
     object-fit: scale-down;
 
 }
-.nav-item a{
+ .nav-item a{
     color: #000000;
-}
-.nav-item a:hover{
-    color: #ffffff;
-
-}
+ }
+ .nav-item a:hover{
+    color: #F7F7F7;
+ }
 
 .preparacion{
     width: 400px;
@@ -76,20 +63,7 @@
     height: 100px;
     
 }
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
-h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    text-decoration: underline;
-    
-}
 .footer_list{
     display: flex;
     align-content: center;

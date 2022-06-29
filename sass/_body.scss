@@ -1,0 +1,85 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: $fontSize;   
+}
+
+
+
+.cuerpo{
+    background-color: #FCFFE7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: $colorText;
+
+
+
+
+    .preparacion{
+       width: 400px;
+       height: 400px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       object-fit: scale-down;
+    }
+   
+   
+   
+   .container_foto{
+       height: auto;
+       width: 100%;
+   
+   }
+   .table{
+       color: #F7F7F7;
+   }
+   .cipo_foto{
+       width: 400px;
+       height: 400px;
+       display: flex;
+       justify-content: start;
+       object-fit: scale-down;
+   
+   }
+   
+   .row{
+       margin: 10px;
+   }
+   .container_foto{
+       h1{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           
+       
+       }
+       h2{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           font-size: 50px;
+           text-decoration: underline;
+           }
+   }   
+}
+@media screen and (max-width:768px){
+
+    .cipo_foto{
+       width: 300px;
+       height: 300px;
+       display: flex;
+       justify-content: start;
+       object-fit: scale-down;
+   
+   }  
+   
+   .table{
+       font-size: 15px;
+       
+   }
+   
+   }

@@ -1,0 +1,21 @@
+.headerNav{
+    .bg-blue {
+        background-color:  $colorBackground;
+        color: $colorText;
+    }
+    
+    .navbar-brand{ 
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: start;
+        object-fit: scale-down;
+    
+    }
+     .nav-item a{
+        color: $colorText;
+     
+     &:hover{
+        color: #F7F7F7;
+     }
+}}

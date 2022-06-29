@@ -1,0 +1,49 @@
+ 
+ .footer{
+ 
+   .container_foot{
+            grid-area: footer;
+            background:$colorBackground;
+            font-size: 25px;
+            color: $colorText;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            height: 100px;}
+
+        
+   .footer_list{
+           display: flex;
+           align-content: center;
+           justify-content: center;
+           color: $colorText;
+           height: 100px;
+           background: $colorBackground;
+       
+       
+        .footer__li{
+           color: $colorText;
+       	   padding: 25px;
+           text-decoration: none;
+       	   list-style-type: none;
+           box-sizing: border-box;
+           background: headerFooterBackground;
+         
+           
+           a{color:$colorText;
+        }
+        
+           a:hover{
+            color: #f7f7f7;
+          }
+        }
+        }
+    
+       
+           
+     
+    }
+           
+
+
+   
