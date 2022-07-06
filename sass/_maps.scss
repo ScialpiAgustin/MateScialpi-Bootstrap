@@ -1,0 +1,26 @@
+$estilos: (
+    bcGround-color: #ffffff,
+    bcGround-position: center,
+    bcGround-repeat: no-repeat,
+    bcGround-attachment: fixed,
+    bcGround-size: cover,
+    tColor: #14f500f7,
+    
+);
+$footer:(
+    color: #14f500f7,
+
+
+);
+
+
+.cuerpo {
+    background-color: map-get($estilos, bcGround-color ) ;
+    background-position: map-get($estilos, bcGround-position ) ;
+    background-repeat: map-get($estilos, bcGround-repeat ) ;
+    background-attachment: map-get($estilos, bcGround-attachment ) ;
+    background-size: map-get($estilos, bcGround-size ) ;
+    color: map-get($estilos, tColor ) ;
+  }
+
+ 

@@ -1,3 +1,12 @@
+.cuerpo {
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: rgba(20, 245, 0, 0.968627451);
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +15,7 @@
 }
 
 .cuerpo {
-  background-color: #FCFFE7;
+  background-color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -19,7 +28,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .cuerpo .container_foto {
   height: auto;
@@ -33,7 +43,8 @@
   height: 100%;
   display: flex;
   justify-content: start;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .cuerpo .row {
   margin: 10px;
@@ -58,8 +69,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    object-fit: scale-down;
+    -o-object-fit: scale-down;
+       object-fit: scale-down;
   }
+
   .table {
     font-size: 15px;
   }
@@ -73,7 +86,8 @@
   height: 100px;
   display: flex;
   justify-content: start;
-  object-fit: scale-down;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 .headerNav .nav-item a {
   color: #000000;
@@ -112,7 +126,5 @@
   color: #000000;
 }
 .footer .footer_list .footer__li a:hover {
-  color: #f7f7f7;
-}
-
-/*# sourceMappingURL=estilo.css.map */
+  color: rgba(247, 247, 247, 0.968627451);
+}/*# sourceMappingURL=estilo.css.map */
