@@ -43,6 +43,10 @@
   justify-content: center;
   align-items: center;
 }
+.cuerpo .img-fluid rounded-start {
+  height: 400px;
+  width: 300px;
+}
 .cuerpo .container_foto {
   height: auto;
   width: 100%;
