@@ -8,8 +8,8 @@ $estilos: (
     
 );
 * {
-	padding: 0;
-	margin: 0;
+	padding: 0px;
+	margin: 0px;
 	font-family: 'Abel', sans-serif;
 	font-size: $fontSize;   
 }
@@ -23,6 +23,23 @@ $estilos: (
     background-attachment: map-get($estilos, bcGround-attachment ) ;
     background-size: map-get($estilos, bcGround-size ) ;
     color: map-get($estilos, tColor ) ;
+    margin: 0px;
+    padding: 5px;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        text-decoration: underline;
+        }
 
 
 
@@ -33,7 +50,7 @@ $estilos: (
        display: flex;
        justify-content: center;
        align-items: center;
-       object-fit: scale-down;
+       
     }
    
    
@@ -44,7 +61,14 @@ $estilos: (
    
    }
    .table{
-       color: #F7F7F7;
+       color: #000000;
+
+       .tbody{
+        height: auto;
+       width: auto;
+       display: flex;
+       justify-content: start;
+       }
    }
    .cipo_foto{
        max-width: 100%;
@@ -54,9 +78,28 @@ $estilos: (
        object-fit: scale-down;
    
    }
-   
+   .formulario{
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   #carousel-index img{
+       height: auto;
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+   }
    .row{
        margin: 10px;
+       padding: 1rem;
+       gap: 1rem;
+       color: #000000;
    }
    .container_foto{
        h1{
@@ -89,6 +132,8 @@ $estilos: (
    
    .table{
        font-size: 15px;
+       height: auto;
+       width: auto;
        
    }
    
